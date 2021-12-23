@@ -86,6 +86,10 @@ class PostController extends Controller
     }
 
     public function postPost(){
-        return view('post');
+
+        $people = ['Chichi', 'Saidy', 'Omary', 'Sara', 'Gwerino', 'Mwamage'];
+        return view('post', compact('people'));
     }
+
+    
 }

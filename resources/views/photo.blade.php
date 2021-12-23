@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Photo view</title>
-    </head>
+@extends('layouts.app')
 
-    <body>
-        <div style="color: red;">This is the photo view</div>
-    </body>
-</html>
+
+
+@section('content')
+    <h1>This is the content for photo page</h1>
+@endsection
+
+
+@section('footer')
+    <script>
+        alert('Hello photo page visitor')
+    </script>
+@endsection
